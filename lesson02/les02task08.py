@@ -33,7 +33,7 @@ for _ in range(n):
             number = abs(number)
             break
         except ValueError:
-            print(f'Ошибка: "{number}" не является цифрой')
+            print(f'Ошибка: "{number}" не является натуральным числом')
     while number > 0:
         if number % 10 == dig:
             sum_dig += 1
